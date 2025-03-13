@@ -1,0 +1,23 @@
+{
+  "id": 4074552,
+  "name": "lsasdc",
+  "target": "branch",
+  "source_type": "Repository",
+  "source": "Camila-gonzale/ui_framework",
+  "enforcement": "disabled",
+  "conditions": {
+    "ref_name": {
+      "exclude": [],
+      "include": []
+    }
+  },
+  "rules": [
+    {
+      "type": "deletion"
+    },
+    {
+      "type": "non_fast_forward"
+    }
+  ],
+  "bypass_actors": []
+}
